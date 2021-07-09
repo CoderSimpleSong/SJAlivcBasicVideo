@@ -44,10 +44,10 @@
     return [[AVPVidStsSource alloc] initWithVid:source.vid accessKeyId:source.accessKeyId accessKeySecret:source.accessKeySecret securityToken:source.securityToken region:source.region playConfig:source.playConfig];
 }
 
-+ (AVPLiveStsSource *)copyLiveStsSourceWithSource:(AVPLiveStsSource *)source {
-    return [[AVPLiveStsSource alloc]initWithUrl:source.url accessKeyId:source.accessKeyId accessKeySecret:source.accessKeySecret securityToken:source.securityToken region:source.region domain:source.domain app:source.app stream:source.stream encryptionType:ENCRYPTION_TYPE_NONE];
+//+ (AVPLiveStsSource *)copyLiveStsSourceWithSource:(AVPLiveStsSource *)source {
+//    return [[AVPLiveStsSource alloc]initWithUrl:source.url accessKeyId:source.accessKeyId accessKeySecret:source.accessKeySecret securityToken:source.securityToken region:source.region domain:source.domain app:source.app stream:source.stream encryptionType:ENCRYPTION_TYPE_NONE];
 //     [[AVPLiveStsSource alloc] initWithUrl:source.url accessKeyId:source.accessKeyId accessKeySecret:source.accessKeySecret securityToken:source.securityToken region:source.region domain:source.domain app:source.app stream:source.stream];
-}
+//}
 
 + (AVPVidMpsSource *)copyMpsSourceWithSource:(AVPVidMpsSource *)source {
     return [[AVPVidMpsSource alloc]initWithVid:source.vid accId:source.accId accSecret:source.accSecret stsToken:source.stsToken authInfo:source.authInfo region:source.region playDomain:source.playDomain mtsHlsUriToken:source.mtsHlsUriToken];
