@@ -44,9 +44,9 @@ Pod::Spec.new do |s|
   s.dependency 'MJRefresh', '~> 3.1.15.7'
   s.dependency 'MRDLNA'
 
-   s.dependency 'AliPlayerSDK_iOS', '5.4.1.2'
-   s.dependency 'AliPlayerSDK_iOS_ARTP', '5.4.1.2'
-   s.dependency 'AliPlayerSDK_iOS_ARTC', '5.3.0'
+   s.dependency 'AliPlayerSDK_iOS'
+   s.dependency 'AliPlayerSDK_iOS_ARTP'
+   s.dependency 'AliPlayerSDK_iOS_ARTC'
 
 
 end
