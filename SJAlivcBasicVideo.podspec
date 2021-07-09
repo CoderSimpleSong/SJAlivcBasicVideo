@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'SJAlivcBasicVideo'
-  s.version          = '0.1.3'
+  s.version          = '0.1.4'
   s.summary          = '阿里播放器的基础UI'
 
 # This description is used to generate tags and improve search results.
@@ -44,9 +44,10 @@ Pod::Spec.new do |s|
   s.dependency 'MJRefresh', '~> 3.1.15.7'
   s.dependency 'MRDLNA'
 
-   s.dependency 'AliPlayerSDK_iOS','5.4.1.2'
-   s.dependency 'AliPlayerSDK_iOS_ARTP'
-   s.dependency 'AliPlayerSDK_iOS_ARTC'
+  s.dependency 'AliPlayerSDK_iOS', '5.4.1.2'
+  #  s.dependency 'AliPlayerSDK_iOS_ARTP', '5.3.0'
+   s.dependency 'AliPlayerSDK_iOS_ARTC', '5.4.1.2'
+   s.dependency 'RtsSDK', '1.6.0'
 
 
 end
