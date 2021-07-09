@@ -3,8 +3,9 @@
 //
 
 #import "AliyunPlayerViewProgressView.h"
-#import "AlivcUIConfig.h"
+#import <SJAlivcCommon/AlivcUIConfig.h>
 #import "UIImage+AlivcHelper.h"
+#import <SJAlivcCommon/AlivcImage.h>
 
 static const CGFloat AliyunPlayerViewProgressViewLoadtimeViewLeft      = 2 ;  //loadtimeView 左侧距离父视图距离
 static const CGFloat AliyunPlayerViewProgressViewLoadtimeViewTop       = 23 ; //loadtimeView 顶部距离父视图距离

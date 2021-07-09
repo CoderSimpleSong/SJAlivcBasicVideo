@@ -17,6 +17,8 @@
 #import "AlivcDefine.h"
 #import "AVPTool.h"
 #import "AlivcPlayVideoRequestManager.h"
+#import <SJAlivcCommon/AlivcImage.h>
+#import <SJAlivcCommon/AlivcMacro.h>
 
 @interface AlivcLongVideoEditArrayModel : NSObject
 

@@ -8,6 +8,7 @@
 
 #import "QHDanmuOperateView.h"
 #import "NSString+AlivcHelper.h"
+#import <SJAlivcCommon/AlivcMacro.h>
 
 @interface QHDanmuOperateView () {
     CGFloat _spaceY;

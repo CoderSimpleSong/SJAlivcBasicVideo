@@ -11,6 +11,9 @@
 #import "NSString+AlivcHelper.h"
 #import "MBProgressHUD+AlivcHelper.h"
 #import "AliyunUtil.h"
+#import <SJAlivcCommon/AlivcMacro.h>
+#import <SJAlivcCommon/AlivcImage.h>
+
 @interface AlivcVideoPlayScreenSelectViewController ()<UITableViewDelegate, UITableViewDataSource, DLNADelegate>
 
 @property(nonatomic,strong) MRDLNA *dlnaManager;

@@ -10,6 +10,8 @@
 #import "AVC_VP_AdsViewController.h"
 #import "AliyunUtil.h"
 #import "NSString+AlivcHelper.h"
+#import <SJAlivcCommon/AlivcImage.h>
+#import <SJAlivcCommon/AlivcMacro.h>
 @interface AVCImageAdView ()
 
 /**

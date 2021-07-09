@@ -3,6 +3,8 @@
 //
 
 #import "AliyunPlayerViewTopView.h"
+#import <SJAlivcCommon/AlivcImage.h>
+#import <SJAlivcCommon/AlivcMacro.h>
 
 static const CGFloat ALYPVTopViewTitleLabelMargin = 8;  //标题 间隙
 static const CGFloat ALYPVTopViewBackButtonWidth  = 40; //返回按钮宽度

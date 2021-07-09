@@ -8,6 +8,8 @@
 
 #import "AlivcLongVideoShareView.h"
 #import "NSString+AlivcHelper.h"
+#import <SJAlivcCommon/AlivcImage.h>
+#import <SJAlivcCommon/AlivcMacro.h>
 
 @interface AlivcLongVideoShareView ()
 

@@ -7,6 +7,7 @@
 //
 
 #import "AVCSlider.h"
+#import <SJAlivcCommon/AlivcImage.h>
 
 #define THUMB_WIDTH  15
 

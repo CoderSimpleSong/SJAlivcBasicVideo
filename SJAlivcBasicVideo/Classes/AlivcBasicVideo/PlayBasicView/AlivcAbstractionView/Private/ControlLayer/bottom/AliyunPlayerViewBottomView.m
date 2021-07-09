@@ -7,6 +7,8 @@
 #import "AliyunPrivateDefine.h"
 #import <AliyunPlayer/AliyunPlayer.h>
 #import "NSString+AlivcHelper.h"
+#import <SJAlivcCommon/AlivcImage.h>
+#import <SJAlivcCommon/AlivcMacro.h>
 static const CGFloat ALYPVBottomViewPlayButtonWidth         = 52;                         //播放按钮宽度
 static const CGFloat ALYPVBottonViewFullScreenTimeWidth     = 80 + 40;                    //全屏时间宽度
 static const CGFloat ALYPVBottonViewFullScreenLeftWidth     = 60;                         //全屏左右时间宽度

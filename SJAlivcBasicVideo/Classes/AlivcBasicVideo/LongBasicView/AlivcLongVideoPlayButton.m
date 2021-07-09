@@ -7,6 +7,7 @@
 //
 
 #import "AlivcLongVideoPlayButton.h"
+#import <SJAlivcCommon/AlivcImage.h>
 @interface AlivcLongVideoPlayButton ()
 
 @property (nonatomic, strong)UIImageView *playingImageView;

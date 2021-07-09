@@ -13,6 +13,7 @@
 #import "AVCNativePlayerController.h"
 #import "NSString+AlivcHelper.h"
 #import "AlivcVideoPlayDLNAController.h"
+#import <SJAlivcCommon/AlivcImage.h>
 #define degressToRadian(x) (M_PI * (x)/180.0)
 
 @interface AVCNativePlayerView ()

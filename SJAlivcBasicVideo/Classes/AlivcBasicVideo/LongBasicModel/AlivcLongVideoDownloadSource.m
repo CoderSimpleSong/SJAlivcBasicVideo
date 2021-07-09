@@ -14,6 +14,7 @@
 #import "AlivcLongVideoDBManager.h"
 #import "AlivcLongVideoSTSConfig.h"
 #import "AlivcDefine.h"
+#import <SJAlivcCommon/AlivcImage.h>
 
 #define DEFAULT_DM  [AlivcLongVideoDownLoadManager shareManager]
 

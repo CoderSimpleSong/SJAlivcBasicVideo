@@ -10,6 +10,7 @@
 #import "QHDanmuOperateView.h"
 #import "MBProgressHUD+AlivcHelper.h"
 #import "NSString+AlivcHelper.h"
+#import <SJAlivcCommon/AlivcMacro.h>
 
 #define VIEW_OPERATE_HEIGHT    44
 

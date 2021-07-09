@@ -9,6 +9,8 @@
 #import "AVCWaterMarkView.h"
 #import <SDWebImage/UIImageView+WebCache.h>
 #import "AliyunUtil.h"
+#import <SJAlivcCommon/AlivcImage.h>
+#import <SJAlivcCommon/AlivcMacro.h>
 
 @interface AVCWaterMarkView ()
 

@@ -12,6 +12,7 @@
 #import "AliyunPlayerViewBottomView.h"
 #import "AlilyunViewLoadingView.h"
 #import "NSString+AlivcHelper.h"
+#import <SJAlivcCommon/AlivcImage.h>
 
 static  NSInteger const NotInAds  = 5;
 

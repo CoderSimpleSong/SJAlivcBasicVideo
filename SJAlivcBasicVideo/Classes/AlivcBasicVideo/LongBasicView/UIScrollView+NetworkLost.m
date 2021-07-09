@@ -9,6 +9,7 @@
 #import "UIScrollView+NetworkLost.h"
 #import "NSString+AlivcHelper.h"
 #import <objc/runtime.h>
+#import <SJAlivcCommon/AlivcImage.h>
 
 @interface UIScrollView (_NetworkLost)
 

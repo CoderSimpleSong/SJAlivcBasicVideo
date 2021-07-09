@@ -4,6 +4,7 @@
 
 #import "AliyunPlayerViewPopLayer.h"
 #import "AliyunUtil.h"
+#import <SJAlivcCommon/AlivcImage.h>
 
 static const CGFloat ALYPVPopBackButtonWidth  = 24;  //返回按钮宽度
 //static const CGFloat ALYPVPopBackButtonHeight = 96;  //返回按钮高度

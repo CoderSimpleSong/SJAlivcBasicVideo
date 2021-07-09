@@ -8,6 +8,7 @@
 
 #import "AlivcLongVideoPreviewLogoView.h"
 #import "NSString+AlivcHelper.h"
+#import <SJAlivcCommon/AlivcImage.h>
 @interface AlivcLongVideoPreviewLogoView ()
 
 @end

@@ -9,6 +9,7 @@
 #import "AlivcLongVideoDefinitionSelectView.h"
 #import "AlivcLongVideoCommonFunc.h"
 #import "NSString+AlivcHelper.h"
+#import <SJAlivcCommon/AlivcMacro.h>
 #define TrackButtonBeginTag 10
 
 @interface AlivcLongVideoDefinitionSelectView()

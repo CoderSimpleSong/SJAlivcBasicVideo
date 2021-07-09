@@ -10,6 +10,8 @@
 #import "AlivcLongVideoPlayButton.h"
 #import "NSString+AlivcHelper.h"
 #import "AlivcLongVideoTVModel.h"
+#import <SJAlivcCommon/AlivcImage.h>
+#import <SJAlivcCommon/AlivcMacro.h>
 
 #define EpisodeButtonTagBegin 10
 #define EpisodeButtonWidth 50

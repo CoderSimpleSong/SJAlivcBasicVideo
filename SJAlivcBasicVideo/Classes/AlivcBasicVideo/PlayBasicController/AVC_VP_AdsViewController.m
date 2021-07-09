@@ -10,6 +10,8 @@
 #import <WebKit/WebKit.h>
 #import "AliyunUtil.h"
 #import "NSString+AlivcHelper.h"
+#import <SJAlivcCommon/AlivcImage.h>
+#import <SJAlivcCommon/AlivcMacro.h>
 @interface AVC_VP_AdsViewController ()
 
 @property (nonatomic, strong)WKWebView * webView;

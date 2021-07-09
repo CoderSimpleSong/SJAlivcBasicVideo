@@ -8,6 +8,8 @@
 
 #import "AlivcLongVideoYourFavoritCell.h"
 #import <SDWebImage/UIImageView+WebCache.h>
+#import <SJAlivcCommon/AlivcMacro.h>
+#import <SJAlivcCommon/AlivcImage.h>
 @interface AlivcLongVideoYourFavoritCell()
 
 @property (nonatomic, strong) UIImageView *videoImageView;

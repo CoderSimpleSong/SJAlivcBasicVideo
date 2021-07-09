@@ -6,7 +6,7 @@
 //  Copyright © 2018年 Alibaba. All rights reserved.
 //
 
-
+#import <UIKit/UIKit.h>
 #import "AlivcPlayModel.h"
 
 

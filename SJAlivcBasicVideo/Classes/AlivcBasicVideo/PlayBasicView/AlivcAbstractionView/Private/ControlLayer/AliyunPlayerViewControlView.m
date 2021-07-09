@@ -5,7 +5,9 @@
 #import "AliyunPlayerViewControlView.h"
 #import "AVCLoopView.h"
 #import "AlivcVideoPlayTrackButtonsView.h"
-#import "AlivcUIConfig.h"
+#import <SJAlivcCommon/AlivcUIConfig.h>
+#import <SJAlivcCommon/AlivcImage.h>
+#import <SJAlivcCommon/AlivcMacro.h>
 
 static const CGFloat ALYControlViewTopViewHeight    = 48;   //topView 高度
 static const CGFloat ALYControlViewBottomViewHeight = 48;   //bottomView 高度

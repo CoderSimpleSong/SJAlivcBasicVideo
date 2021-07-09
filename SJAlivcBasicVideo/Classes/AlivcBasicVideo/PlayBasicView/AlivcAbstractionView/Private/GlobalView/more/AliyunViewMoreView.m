@@ -8,12 +8,13 @@
 
 #import "AliyunViewMoreView.h"
 #import "AliyunUtil.h"
-#import "AlivcUIConfig.h"
+#import <SJAlivcCommon/AlivcUIConfig.h>
 #import "AVCAirPlayView.h"
 #import <MediaPlayer/MediaPlayer.h>
 #import "MBProgressHUD+AlivcHelper.h"
 #import "AVCSlider.h"
 #import "NSString+AlivcHelper.h"
+#import <SJAlivcCommon/AlivcImage.h>
 
 @interface AliyunViewMoreView()
 @property (nonatomic, strong) UIScrollView *containsView;
@@ -114,9 +115,7 @@
 //        [UIColor colorWithRed:28.0/255.0 green:31.0/255.0 blue:33.0/255.0 alpha:0.90];
         _segmentedControl.selectedSegmentIndex = 0;
         _segmentedControl.tintColor = [UIColor clearColor];
-        NSDictionary* selectedTextAttributes = @{NSFontAttributeName:[UIFont boldSystemFontOfSize:14],
-                                                 
-                                                 NSForegroundColorAttributeName: [AlivcUIConfig shared].kAVCThemeColor};
+        NSDictionary* selectedTextAttributes = @{NSFontAttributeName:[UIFont boldSystemFontOfSize:14],NSForegroundColorAttributeName: [AlivcUIConfig shared].kAVCThemeColor};
         
         [_segmentedControl setTitleTextAttributes:selectedTextAttributes forState:UIControlStateSelected];//设置文字属性
         

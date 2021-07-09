@@ -10,7 +10,7 @@
 
 //public
 #import "AliyunPrivateDefine.h"
-#import "AliyunReachability.h"
+#import <SJAlivcCommon/AliyunReachability.h>
 
 //data
 #import "AliyunDataSource.h"
@@ -47,7 +47,8 @@
 #import "AlivcLongVideoPreviewLogoView.h"
 #import "AlivcVideoPlayScreenSelectViewController.h"
 #import "AlivcDefine.h"
-
+#import <SJAlivcCommon/AlivcImage.h>
+#import <SJAlivcCommon/AlivcMacro.h>
 #define PLAY_VIEW @"playView"
 
 static const CGFloat AlilyunViewLoadingViewWidth  = 130;

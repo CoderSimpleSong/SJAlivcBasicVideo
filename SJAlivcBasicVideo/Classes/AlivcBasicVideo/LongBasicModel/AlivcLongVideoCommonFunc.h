@@ -5,7 +5,7 @@
 //  Created by Aliyun on 2019/6/26.
 //  Copyright © 2019 Aliyun. All rights reserved.
 //
-
+#import <UIKit/UIKit.h>
 #import <Foundation/Foundation.h>
 
 @interface AlivcLongVideoCommonFunc : NSObject
